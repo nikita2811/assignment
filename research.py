@@ -14,7 +14,8 @@ from langchain_community.chat_models import ChatOllama
 
 load_dotenv()
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA_JlcVTsiieNjmyyiV_6Ct_f1hzgett60"
+os.environ["GOOGLE_API_KEY"] = "your_gemini_api_key"
+
 
 
 llm = ChatGoogleGenerativeAI(
